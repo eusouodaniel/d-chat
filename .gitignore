@@ -5,3 +5,5 @@
 !/tmp/.keep
 .byebug_history
 /vendor
+/terraform/.terraform
+terraform.tfstate.backup

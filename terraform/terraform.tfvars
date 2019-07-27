@@ -1,0 +1,10 @@
+
+aws_region            = "us-east-1"
+aws_profile           = "default"
+aws_instance          = "t2.micro"
+ami_id                = "ami-0de53d8956e8dcf80"
+ami_name              = "ami_name"
+ami_key_pair_name     = "ami_key_pair_name"
+aws_pem               = "aws_pem"
+aws_access_key_id     = "aws_access_key_id"
+aws_secret_access_key = "aws_secret_access_key"

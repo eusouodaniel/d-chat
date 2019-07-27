@@ -1,18 +1,18 @@
 <div id="add_team_modal" class="modal">
-  <div class="modal-content">
-    <div class="row">
-      <%= form_tag(controller: "teams", action: "create", method: "create", class: "col s12") do %>
+    <div class="modal-content">
         <div class="row">
-          <div class="col s12">
-            <h4>Adicionar time</h4>
-          </div>
-          <div class="input-field col s12">
-            <%= text_field(:team, :slug) %>
-            <%= label_tag(:slug, "Team Name") %>
-            <%= submit_tag("New Team", class: "btn right") %>
-          </div>
+            <%= form_tag(controller: "teams", action: "create", method: "create", class: "col s12") do %>
+                <div class="row">
+                    <div class="col s12">
+                        <h4>Adicionar time</h4>
+                    </div>
+                    <div class="input-field col s12">
+                        <%= text_field(:team, :slug) %>
+                        <%= label_tag(:slug, "Nome") %>
+                        <%= submit_tag("Novo time", class: "btn right") %>
+                    </div>
+                </div>
+            <% end %>
         </div>
-      <% end %>
     </div>
-  </div>
 </div>
