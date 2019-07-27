@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: onebitchat_development
+  database: dchat_development
 
 test:
   <<: *default
-  database: onebitchat_exchance_test
+  database: dchat_exchance_test
 
 production:
   <<: *default
-  database: onebitchat_exchance_production
+  database: dchat_exchance_production
